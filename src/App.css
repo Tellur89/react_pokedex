@@ -34,3 +34,16 @@ p {
 	gap: 40px;
 	margin-top: 5rem;
 }
+
+.form__pokemon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+	margin: 5rem auto;
+
+	height: 10rem;
+	background-color: bisque;
+	width: 20rem;
+}

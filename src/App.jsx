@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Pokedex } from './components';
+import { Pokedex, PokemonForm } from './components';
 
 function App() {
 	const [pokemons, setPokemons] = useState([
@@ -40,6 +40,7 @@ function App() {
 		<>
 			<header>Pokedex</header>
 			<Pokedex pokemons={pokemons} />
+			<PokemonForm />
 		</>
 	);
 }
